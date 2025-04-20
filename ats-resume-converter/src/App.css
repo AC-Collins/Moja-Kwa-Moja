@@ -1,0 +1,50 @@
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+  color: #2c3e50;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Fallback centering */
+}
+
+.logo {
+  display: block;
+  max-height: 8px; /* Matches Tailwind's h-2 */
+  object-fit: contain; /* Prevents distortion */
+  margin: 0 auto; /* Ensure centering */
+}
+
+.slogan {
+  font-size: 0.75rem; /* Matches Tailwind's text-xs */
+  font-weight: 600; /* Matches Tailwind's font-semibold */
+  color: #4b5e71; /* Slightly darker than Tailwind's text-gray-700 */
+  text-align: center;
+}
+
+.about-section {
+  padding: 1rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  text-align: center; /* Ensure centering */
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+a:hover {
+  color: #2980b9;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+a:active {
+  color: #21618c;
+}
